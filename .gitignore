@@ -1,0 +1,25 @@
+# Build and install directories (colcon)
+/build/
+/install/
+/log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake / Compilation
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+
+# ROS 2 specific
+colcon_*.sh
+setup.*
